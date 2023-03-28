@@ -61,21 +61,24 @@ puts "Is number_students less than or equal to 21?", number_students <= 21
 
 puts 4 < 9
 #YOU DO: Explain.
+This line of code is making the comparison of four is less than nine. Since four is less than 9 it will print true.
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+Here we are assigning the value 3 to the variable books. The second line is telling the computer to print the result of the comparison 4 is less than 3, which would print false
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+Here we are assigning the value 6 to the variable friends and the value 2 to the variable siblings. The third line tells the computer to print the result of friends (6) is greater than siblings (2) which will be true
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
-
+We are assigning the value 9 to the variable attendees and the value 8 to the variable meals. The third line tells the computer to ask is the amount of meals not equal the amount of attendees which will print true
 
 #-------------------
 # PART 3: Logical Operators
@@ -97,15 +100,12 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
-
+puts loves_to_play && loves_treats
 # Determine if the dog loves to play and loves the dog park
-
-
+puts loves_to_play && loves_dog_park
 # Determine if the dog loves to play or loves the dog park
-
-
+puts loves_to_play || loves_dog_park
 # Determine if the dog loves to play and is a puppy
-
+puts loves_to_play && age = 1
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: All it gave me as an output was 1. I think this is because The computer does not know what age determines a puppy.
